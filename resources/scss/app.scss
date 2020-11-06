@@ -1,0 +1,103 @@
+$blue: CCE3DE;
+$pink:DD7373;
+$black:000000;
+$white:white;
+$orange:orange;
+$green:55a630;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.imgage{
+width: 100%;
+height:230px;
+}
+.link{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.link li {
+    list-style: none;
+    float: left;
+    margin-top: 60px;
+    font-family: 'Merriweather', serif;
+}
+ .link li a{
+    padding-right:50px;
+    font-size: 25px;
+    font-family: 'Merriweather', serif;
+    font: bolder;
+    text-decoration: none;
+    color:black;
+} 
+.link li a:hover,.link li a .active{
+    color: crimson;
+    
+}
+.hea{
+    font-family: 'Merriweather', serif;
+    color:  #025c0e;
+    font-size: 50px;
+    padding-right:250px;
+}
+.order{
+    font-family: 'Merriweather', serif;
+    color: rgba(216, 59, 59, 0.686) ;
+    margin-left: 30px;
+    font-size:40px;
+}
+.ad{
+    font-family: 'Merriweather', serif;
+    font-weight: bold;
+    color: crimson;
+}
+
+.ordernow{
+    background-color: rgba(216, 59, 59, 0.686);
+    font-family: 'Merriweather', serif;
+}
+.yy{
+    color:rgba(216, 59, 59, 0.686);
+    font-family: 'Merriweather', serif;
+}
+.coffee{
+    border-radius: 5px;
+    width: 200px;
+}
+.items{
+    list-style: none;
+}
+.items li {
+    font-size: 20px;
+    font: italic;
+}
+.add {
+    background-color: rgba(216, 61, 61, 0.685);
+    border-radius: 10px;
+    width:60px;
+    margin-left: 70px;
+    margin-top: 4px;
+}
+.add a{
+    color: black;
+    text-decoration: none;
+}
+.list{
+    border: 3px solid  gray;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    margin: 3px;
+    padding: 1px;
+    margin-left: 30px;
+}
+.form{
+    text-align: center;
+    display: flexbox;
+    font-size: 25px;
+}
+
+
